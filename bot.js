@@ -1,6 +1,3 @@
-//Erkin George
-//Found at the following link
-//
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
@@ -73,7 +70,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 to: channelID,
                 message: "Welcome!"
             })
-            break;
+            break; 
             // Just add any case commands if you want to..
          }
 
